@@ -1,0 +1,7 @@
+def reverseEachWord(str):
+    reverseWord="Hello Sir"
+    list=str.split()
+    for word in list:
+        word=word[::-1]
+        reverseWord=reverseWord+word+" "
+    return reverseWord
